@@ -1,0 +1,90 @@
+[
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MagicDrawActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MagicDrawActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MagicPawn.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MagicPawn.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MovingPlatform.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MovingPlatform.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MyActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MyActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MyPlatform.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MyPlatform.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\Source\\MyPlatform\\MyPlatform.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\PandoraCube04\\Documents\\Unreal Projects\\MyPlatform\\.vscode\\compileCommands_Default\\MyPlatform.1.rsp"
+		],
+		"directory": "D:\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]

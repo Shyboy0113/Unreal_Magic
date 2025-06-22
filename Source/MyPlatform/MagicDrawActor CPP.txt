@@ -1,0 +1,60 @@
+#include "MagicDrawActor.h"
+#include "GameFramework/PlayerController.h"
+#include "Engine/World.h"
+#include "Engine/Engine.h"
+
+AMagicDrawActor::AMagicDrawActor()
+{
+    PrimaryActorTick.bCanEverTick = true;
+    bIsDrawing = false;
+}
+
+void AMagicDrawActor::BeginPlay()
+{
+    Super::BeginPlay();
+
+    APlayerController* PC = GetWorld()->GetFirstPlayerController();
+    if (PC)
+    {
+        EnableInput(PC);
+        UE_LOG(LogTemp, Warning, TEXT("Input enabled!"));
+    }
+}
+
+void AMagicDrawActor::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+
+    // 마우스 이동 감지 (그리기 중일 때만)
+    if (bIsDrawing)
+    {
+        APlayerController* PC = GetWorld()->GetFirstPlayerController();
+        if (PC)
+        {
+            FVector2D MousePos;
+            if (PC->GetMousePosition(MousePos.X, MousePos.Y))
+            {
+                DrawnPoints.Add(MousePos);
+                UE_LOG(LogTemp, Warning, TEXT("Mouse Moved: %s"), *MousePos.ToString());
+            }
+        }
+    }
+}
+
+void AMagicDrawActor::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+    PlayerInputComponent->BindAction("LeftClick", IE_Pressed, this, &AMagicDrawActor::OnMousePressed);
+    PlayerInputComponent->BindAction("LeftClick", IE_Released, this, &AMagicDrawActor::OnMouseReleased);
+}
+
+void AMagicDrawActor::OnMousePressed()
+{
+    bIsDrawing = true;
+    UE_LOG(LogTemp, Warning, TEXT("Mouse Pressed - Drawing Started"));
+}
+
+void AMagicDrawActor::OnMouseReleased()
+{
+    bIsDrawing = false;
+    UE_LOG(LogTemp, Warning, TEXT("Mouse Released - Drawing Stopped"));
+}

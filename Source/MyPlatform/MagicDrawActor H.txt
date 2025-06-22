@@ -1,0 +1,32 @@
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "MagicDrawActor.generated.h"
+
+UCLASS()
+class MYPLATFORM_API AMagicDrawActor : public AActor
+{
+    GENERATED_BODY()
+
+public:
+    AMagicDrawActor();
+
+protected:
+    virtual void BeginPlay() override;
+    virtual void Tick(float DeltaTime) override;
+
+    // 입력 바인딩용 함수
+    virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent);
+
+    // 입력 처리 함수들
+    void OnMousePressed();
+    void OnMouseReleased();
+    void OnMouseMoved();
+
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+    TArray<FVector2D> DrawnPoints;
+
+private:
+    bool bIsDrawing;
+};
